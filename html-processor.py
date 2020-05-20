@@ -26,7 +26,7 @@ with open('testpage.txt','r') as fp:
 	text = rexp2.sub(" ",text)
 
 	#Διγραφή των tags script και style
-	rexp3 = re.compile('<script(.+?)</script>|style=(.+?)',re.DOTALL)
+	rexp3 = re.compile('<script(.+?)</script>|style=(.+?)</style>',re.DOTALL)
 	text = rexp3.sub(" ",text)
  
 	#Εξαγωγή και εκτύπωση href
