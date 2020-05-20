@@ -9,8 +9,7 @@ def cb(m):
 	elif m.group(0) == '&lt;':
 		return '<'
 	elif m.group(0) == '&nbsp;':
-		return ' '
-   
+		return ' '  
 
 # Άνοιγμα txt αρχείου
 with open('testpage.txt','r') as fp:
