@@ -50,5 +50,5 @@ with open('testpage.txt','r') as fp:
 	rexp7 = re.compile('\s+') 
 	text = rexp7.sub(' ',text)	
     
-    #Εκτύπωση του τροποποιημένου κειμένου
+    	#Εκτύπωση του τροποποιημένου κειμένου
 	print(text)
